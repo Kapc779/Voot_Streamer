@@ -27,11 +27,12 @@ async function handleRequest(request) {
   <title>Avi Patil | VOOT Online Player and Downloader !!</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://avipatilpro.github.io/host/z5style.css">
-  <link rel="stylesheet" href="https://avipatilpro.github.io/host/zstyle.css">
+  <link rel="stylesheet" href="https://avipatilpro.github.io/host/vstyle.css">
+  <link rel="stylesheet" href="https://avipatilpro.github.io/host/v1style.css">
 
 <style>
 body{ background-color:#202020;}
+
 </style>
 
 </head>
@@ -100,8 +101,8 @@ Stream
     <link rel="shortcut icon" type="image/x-icon" href="https://chatecrew.live/swarup/img/favicon.png">
 
   <title>Not Found | Avi Patil | VOOT Online Player and Downloader !!</title>
-  <link rel="stylesheet" href="https://avipatilpro.github.io/host/z5style.css">
-  <link rel="stylesheet" href="https://avipatilpro.github.io/host/zstyle.css">
+  <link rel="stylesheet" href="https://avipatilpro.github.io/host/vstyle.css">
+  <link rel="stylesheet" href="https://avipatilpro.github.io/host/v1style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap" rel="stylesheet">
 
