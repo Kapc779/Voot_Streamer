@@ -16,7 +16,7 @@
 
 <h4>
 ‣ Copy Your Content URL or Video ID From VOOT 👇 <br><br>
-‣ Then Gon to voot.movhdapp.ml and paste URL or ID in Box. <br>
+‣ Then Gon to https://voot.movhdapp.ml and paste URL or ID in Box. <br>
 ‣ Then CLick On The STREAM and Enjoy !!  <br>
 
 </h4>
