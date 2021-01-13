@@ -124,7 +124,7 @@ body{ background-color:#202020;}
   <center>
  <div class="bar">
 <input type="search" class="searchbar" name="url" value="" placeholder="Enter VOOT URL or VIDEO ID" autocomplete="off">
-<a href="https://voot.com/"> <img class="VOOT" src="https://www.voot.com/images/Voot-Logo.svg" title="Go To VOOT Site"></a>
+<a href="https://voot.com/"> <img class="VOOT" src="https://www.voot.com/images/Voot-Logo.svg" width="35px" title="Go To VOOT Site"></a>
 </div>
 
 <button  class="button" type="submit" value="" title="Stream And Enjoy !!">
@@ -149,7 +149,7 @@ Stream
                     "Content-Type": "text/html",
                     "Cache-Control": "no-cache, no-store, must-revalidate",
                     "Access-Control-Allow-Origin": "*",
-                    "Made-By": "https://github.com/avipatilpro/VOOT/"
+                    "Made-By": "https://github.com/avipatilpro/Voot_Streamer/"
             })
         })
 
@@ -167,7 +167,7 @@ Stream
                     "Content-Type": "text/html",
                     "Cache-Control": "no-cache, no-store, must-revalidate",
                     "Access-Control-Allow-Origin": "*",
-                    "Made-By": "https://github.com/avipatilpro/VOOT/"
+                    "Made-By": "https://github.com/avipatilpro/Voot_Streamer/"
                 })
             })
       }
