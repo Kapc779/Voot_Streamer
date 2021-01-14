@@ -155,13 +155,14 @@ Stream
 
     } else {
         var pass = ({
-            vootID: result.assets.MediaID,
+            vID: result.assets.MediaID,
             title: result.assets.MediaName,
-            description: result.assets.Metas[1].Value,
-            video: result.assets.Files[3].URL
+            img: result.assets.Pictures[0].URL.replace("https://viacom18-res.cloudinary.com/image/upload/f_auto,q_auto:eco,fl_lossy/kimg", "https://kimg.voot.com"),
+            desc: result.assets.Metas[1].Value,
+            vurl: result.assets.Files[3].URL
         })
 
-        return new Response(await template(pass.title, pass.image, pass.video, pass.vootID, pass.description), {
+        return new Response(await template(pass.title, pass.img, pass.vurl, pass.vID, pass.desc), {
                 status: 200,
                 headers: ({
                     "Content-Type": "text/html",
@@ -172,7 +173,7 @@ Stream
             })
       }
 }
-async function template(title, image, video, vootID, description) {
+async function template(title, img, vurl, vID, desc) {
     return `<html>
 
 <head>
@@ -296,8 +297,8 @@ html {
 </div>
 </div>
 
-  <video controls crossorigin poster="${image}" playsinline>
-    <source type="application/x-mpegURL" src="${video}"> </video>
+  <video controls crossorigin poster="${img}" playsinline>
+    <source type="application/x-mpegURL" src="${vurl}"> </video>
 </body>
 <script>
   setTimeout(videovisible, 4000)
